@@ -1,0 +1,23 @@
+.table-wrapper {
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    min-width: 400px;
+    border-spacing: 0;
+}
+table tr:hover {
+    background-color: var(--main-color);
+    color: var(--txt-white);
+}
+table > thead  {
+    background-color: var(--second-bg);
+}
+table tr {
+   text-align: left;
+}
+table > thead > tr > th,
+table > tbody > tr > td {
+    padding: 15px 10px;
+    text-transform: capitalize;
+}
